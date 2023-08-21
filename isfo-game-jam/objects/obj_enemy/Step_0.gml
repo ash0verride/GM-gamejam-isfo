@@ -12,7 +12,7 @@ if(instance_exists(_target))
 	if(!instance_exists(obj_settlement) && instance_exists(obj_player_centre))
 	{
 		move_towards_point(obj_player_centre.x, obj_player_centre.y, speed);
-		_hasTarget = true;
+		_has_target = true;
 	}
 	else if(instance_exists(obj_settlement))
 	{
@@ -24,21 +24,21 @@ if(instance_exists(_target))
 			if(distance_to_object(_settlement) < _closest)
 			{
 				_closest = distance_to_object(_settlement);
-				target = _settlement;
+				_target = _settlement;
 			}
 		}
-		_hasTarget = true;
+		_has_target = true;
 	}
 }
 
-if(_hasTarget)
+if(_has_target)
 {
-	if(instance_exists(target))
+	if(instance_exists(_target))
 	{
-		move_towards_point(target.x, target.y, speed)
+		move_towards_point(_target.x, _target.y, speed)
 	}
 	else
 	{
-		_hasTarget = false;
+		_has_target = false;
 	}
 }
