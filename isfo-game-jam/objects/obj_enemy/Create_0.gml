@@ -1,4 +1,6 @@
-health = 100.0;
-speed = 1.0;
+health = obj_game_manager.difficulty * 100.0;
+speed = obj_game_manager.difficulty;
 
-_hasTarget = false;
+_has_target = false;
+
+_target = obj_player_centre;

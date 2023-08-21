@@ -1,11 +1,11 @@
-if (_hasTarget == false)
+if (_has_target == false)
 {
 	// Looks for nearest target
-	_hasTarget = true;
+	_has_target = true;
 }
 
 // Moves to intended target
-if(!instance_exists(obj_settlement) && instance_exists(obj_player_centre))
+if(instance_exists(_target))
 {
-	move_towards_point(obj_player_centre.x, obj_player_centre.y, speed);
+	move_towards_point(_target.x, _target.y, speed);
 }
