@@ -1,7 +1,12 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"spr_enemy_spawner","order":1,"path":"sprites/spr_enemy_spawner/spr_enemy_spawner.yy",},
+    {"name":"obj_enemy_spawner","order":1,"path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},
+    {"name":"obj_game_manager","order":2,"path":"objects/obj_game_manager/obj_game_manager.yy",},
     {"name":"spr_player_centre","order":2,"path":"sprites/spr_player_centre/spr_player_centre.yy",},
+    {"name":"spr_settlement","order":4,"path":"sprites/spr_settlement/spr_settlement.yy",},
+    {"name":"obj_settlement","order":4,"path":"objects/obj_settlement/obj_settlement.yy",},
     {"name":"rm_player","order":1,"path":"rooms/rm_player/rm_player.yy",},
     {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"obj_bullet","order":2,"path":"objects/obj_bullet/obj_bullet.yy",},
