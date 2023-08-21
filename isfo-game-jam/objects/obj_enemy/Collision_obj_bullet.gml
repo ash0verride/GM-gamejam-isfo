@@ -1,18 +1,18 @@
-health -= 1.0;
+_health -= 1.0;
 
 instance_destroy(other)
 
-if (health > 0)
+if (_health > 0.5)
 {
-	if (health <= _max_health * 0.25)
+	if (_health <= _max_health * 0.25)
 	{
 		image_index = 3;
 	}
-	else if (health <= _max_health * 0.5)
+	else if (_health <= _max_health * 0.5)
 	{
 		image_index = 2;
 	}
-	else if (health <= _max_health * 0.75)
+	else if (_health <= _max_health * 0.75)
 	{
 		image_index = 1;
 	}

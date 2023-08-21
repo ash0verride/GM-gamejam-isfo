@@ -66,7 +66,7 @@ if(_has_target)
 {
 	if(instance_exists(_target))
 	{
-		move_towards_point(_target.x, _target.y, speed)
+		move_towards_point(_target.x, _target.y, _speed)
 	}
 	else
 	{
