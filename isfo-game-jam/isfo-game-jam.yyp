@@ -34,6 +34,7 @@
   },
   "resources": [
     {"id":{"name":"spr_enemy_spawner","path":"sprites/spr_enemy_spawner/spr_enemy_spawner.yy",},},
+    {"id":{"name":"obj_resource","path":"objects/obj_resource/obj_resource.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_enemy_spawner","path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},},
@@ -44,6 +45,7 @@
     {"id":{"name":"obj_settlement","path":"objects/obj_settlement/obj_settlement.yy",},},
     {"id":{"name":"rm_player","path":"rooms/rm_player/rm_player.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
+    {"id":{"name":"spr_resource","path":"sprites/spr_resource/spr_resource.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_soldier","path":"objects/obj_soldier/obj_soldier.yy",},},
     {"id":{"name":"spr_target","path":"sprites/spr_target/spr_target.yy",},},
