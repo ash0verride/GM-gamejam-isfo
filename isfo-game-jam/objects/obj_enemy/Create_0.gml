@@ -8,3 +8,5 @@ _has_target = false;
 _target = obj_player_centre;
 
 image_index = 0;
+
+target = noone;
