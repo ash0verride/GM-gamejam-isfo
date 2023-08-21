@@ -1,8 +1,8 @@
 difficultyTimer = 0.0;
 difficulty = 1;
 
-_maxDifficulty = 10;
-_timeBetweenLevels = 10;
+_maxDifficulty = 5;
+_timeBetweenLevels = 50;
 
 score = 0;
 
