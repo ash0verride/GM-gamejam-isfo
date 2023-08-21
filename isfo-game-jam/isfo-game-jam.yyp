@@ -3,8 +3,10 @@
   "resourceVersion": "1.6",
   "name": "isfo-game-jam",
   "resources": [
+    {"id":{"name":"spr_enemy_spawner","path":"sprites/spr_enemy_spawner/spr_enemy_spawner.yy",},"order":1,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":0,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
+    {"id":{"name":"obj_enemy_spawner","path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
