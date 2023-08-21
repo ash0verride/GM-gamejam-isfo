@@ -5,3 +5,5 @@ _maxDifficulty = 10;
 _timeBetweenLevels = 10;
 
 score = 0;
+
+randomise();
