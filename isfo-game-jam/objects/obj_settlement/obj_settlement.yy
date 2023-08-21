@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_settlement",
-    "path": "sprites/spr_settlement/spr_settlement.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
