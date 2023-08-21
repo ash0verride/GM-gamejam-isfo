@@ -19,9 +19,14 @@ if (health > 0)
 }
 else 
 {
-	if(instance_exists(obj_player_centre) && floor(random_range(0, 2)) == 1)
+	if(floor(random_range(0, _drop_rate)) == 1)
 	{
-		obj_player_centre.can_settle = true;
+		instance_create_layer(x, y, layer, obj_resource);
+	}
+	
+	if(instance_exists(obj_game_manager))
+	{
+		obj_game_manager.points += 100;
 	}
 	
 	instance_destroy();
