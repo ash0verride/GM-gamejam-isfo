@@ -1,4 +1,4 @@
-_cooldown -= (delta_time*0.000001);
+_cooldown -= (delta_time * 0.000001);
 
 if (_cooldown <= 0)
 {
