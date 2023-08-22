@@ -28,6 +28,9 @@ if(file_exists("highscore.ini"))
 
 pause = false;
 paused_surf = -1;
+resume = false;
+
+window_set_cursor(cr_none);
 
 audio_stop_all();
 audio_play_sound(sndTrack2, 0, true, 0.3);

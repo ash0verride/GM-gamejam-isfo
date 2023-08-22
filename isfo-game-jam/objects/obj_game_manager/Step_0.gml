@@ -19,16 +19,24 @@ if(room == rm_player)
 {
 	if(keyboard_check_pressed(ord("P")))
 	{
-		pause = !pause;
-		if(!pause)
-		{
-			instance_activate_all();
-			surface_free(paused_surf);
-			paused_surf = -1;
-		}
+		pause = true;
+		resume = false;
+		
+		var _x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0])/2;
+		var _y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])/2 + 200;
+		
+		instance_create_layer(_x, _y, "GUI", obj_button_resume);
+		instance_create_layer(_x, _y + 150, "GUI", obj_button_return);
 	}
-	else
+	
+	if(pause && resume)
 	{
-		window_set_cursor(cr_none);	
+		pause = false;
+		resume = false;
+		
+		paused_surf = -1;
+		
+		window_set_cursor(cr_none);
+		instance_activate_all();
 	}
 }
