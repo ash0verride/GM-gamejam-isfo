@@ -23,6 +23,7 @@ if(file_exists("highscore.ini"))
 }
 
 global.pause = false;
+paused_surf = -1;
 
 randomise();
 
