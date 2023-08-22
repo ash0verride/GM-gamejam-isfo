@@ -19,7 +19,7 @@ if(shoot_countdown <= 0)
 	
 	_bullet.speed = 10;
 	_bullet.direction = image_angle;
-	_bullet.image_angle = image_angle;
+	_bullet.image_angle = image_angle - 90;
 	
 	//Reset the countdown
 	shoot_countdown += 1;

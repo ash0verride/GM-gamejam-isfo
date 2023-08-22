@@ -32,7 +32,7 @@ else
 {
 	if(floor(random_range(0, _drop_rate)) == 1)
 	{
-		instance_create_layer(x, y, layer, obj_resource);
+		instance_create_layer(x, y, "Forground_Effects", obj_resource);
 	}
 	
 	if(instance_exists(obj_game_manager))

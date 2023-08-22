@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy_spawner",
-    "path": "sprites/spr_enemy_spawner/spr_enemy_spawner.yy",
+    "name": "sprSpaceStation_Fixture04",
+    "path": "sprites/sprSpaceStation_Fixture04/sprSpaceStation_Fixture04.yy",
   },
   "spriteMaskId": null,
   "visible": true,

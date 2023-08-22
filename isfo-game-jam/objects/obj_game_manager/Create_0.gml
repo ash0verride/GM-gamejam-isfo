@@ -28,5 +28,5 @@ randomise();
 
 for (var _i = 0; _i < _inital_spawner_count; _i++)
 {
-		instance_create_layer(random_range(0, room_width), random_range(0, room_height), "Spawners", obj_enemy_spawner);
+		instance_create_layer(random_range(0, room_width), random_range(0, room_height), "Spawner_Enemies", obj_enemy_spawner);
 }

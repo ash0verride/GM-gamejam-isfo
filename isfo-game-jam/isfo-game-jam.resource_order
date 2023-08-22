@@ -11,11 +11,12 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_enemy_spawner","order":9,"path":"sprites/spr_enemy_spawner/spr_enemy_spawner.yy",},
-    {"name":"spr_plumes_of_smoke","order":22,"path":"sprites/spr_plumes_of_smoke/spr_plumes_of_smoke.yy",},
-    {"name":"sprShieldAnim","order":23,"path":"sprites/sprShieldAnim/sprShieldAnim.yy",},
+    {"name":"spr_plumes_of_smoke","order":21,"path":"sprites/spr_plumes_of_smoke/spr_plumes_of_smoke.yy",},
+    {"name":"sprPlayerMissileAnim","order":24,"path":"sprites/sprPlayerMissileAnim/sprPlayerMissileAnim.yy",},
+    {"name":"sprShieldAnim","order":22,"path":"sprites/sprShieldAnim/sprShieldAnim.yy",},
     {"name":"spr_enemy_old","order":8,"path":"sprites/spr_enemy_old/spr_enemy_old.yy",},
-    {"name":"spr_camp_fire","order":21,"path":"sprites/spr_camp_fire/spr_camp_fire.yy",},
-    {"name":"spr_small_spark","order":20,"path":"sprites/spr_small_spark/spr_small_spark.yy",},
+    {"name":"spr_camp_fire","order":20,"path":"sprites/spr_camp_fire/spr_camp_fire.yy",},
+    {"name":"spr_small_spark","order":19,"path":"sprites/spr_small_spark/spr_small_spark.yy",},
     {"name":"spr_player_centre","order":7,"path":"sprites/spr_player_centre/spr_player_centre.yy",},
     {"name":"spr_settlement","order":6,"path":"sprites/spr_settlement/spr_settlement.yy",},
     {"name":"spr_enemy","order":5,"path":"sprites/spr_enemy/spr_enemy.yy",},
@@ -24,5 +25,6 @@
     {"name":"spr_resource","order":3,"path":"sprites/spr_resource/spr_resource.yy",},
     {"name":"spr_button","order":2,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_target","order":1,"path":"sprites/spr_target/spr_target.yy",},
+    {"name":"sprSpaceStation_Fixture04","order":23,"path":"sprites/sprSpaceStation_Fixture04/sprSpaceStation_Fixture04.yy",},
   ],
 }
