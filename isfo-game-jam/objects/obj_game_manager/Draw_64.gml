@@ -1,3 +1,10 @@
+if (instance_exists(obj_gameover) && draw_text_alpha > 0)
+{
+	draw_text_alpha -= (delta_time * 0.000001);
+}
+
+draw_set_alpha(draw_text_alpha);
+
 draw_text(20, 20, "Difficulty " + string(difficulty));
 draw_text(20, 60, "Resources " + string(resources_collected));
 draw_text(20, 100, "Points " + string(points));
@@ -15,3 +22,5 @@ else
 	draw_text(20, 180, "You cannot settle!");
 	draw_set_colour(c_white);
 }
+
+draw_set_alpha(1);

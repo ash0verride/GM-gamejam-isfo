@@ -71,15 +71,22 @@ if (_has_target == false)
 //If the enemy thinks they have a target
 if(_has_target)
 {
-	//If that target actually exists, move towards it
-	//Otherwise find a new target
-	if(instance_exists(_target))
+	if (instance_exists(obj_soldier))
 	{
-		image_angle = (point_direction(x, y, _target.x, _target.y)) + 90;
-		move_towards_point(_target.x, _target.y, speed)
+		//If that target actually exists, move towards it
+		//Otherwise find a new target
+		if(instance_exists(_target))
+		{
+			image_angle = (point_direction(x, y, _target.x, _target.y)) + 90;
+			move_towards_point(_target.x, _target.y, speed)
+		}
+		else
+		{
+			_has_target = false;
+		}
 	}
 	else
 	{
-		_has_target = false;
+		speed = 0;	
 	}
 }

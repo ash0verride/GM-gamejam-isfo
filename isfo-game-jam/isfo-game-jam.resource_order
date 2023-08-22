@@ -25,6 +25,7 @@
     {"name":"spr_bullet","order":4,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"spr_resource","order":3,"path":"sprites/spr_resource/spr_resource.yy",},
     {"name":"spr_button","order":2,"path":"sprites/spr_button/spr_button.yy",},
+    {"name":"obj_gameover","order":1,"path":"objects/obj_gameover/obj_gameover.yy",},
     {"name":"sprPlayerShip_Light","order":18,"path":"sprites/sprPlayerShip_Light/sprPlayerShip_Light.yy",},
     {"name":"spr_target","order":1,"path":"sprites/spr_target/spr_target.yy",},
     {"name":"sprPlayerShip_Light_Fire","order":19,"path":"sprites/sprPlayerShip_Light_Fire/sprPlayerShip_Light_Fire.yy",},

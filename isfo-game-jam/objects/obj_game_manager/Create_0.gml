@@ -15,6 +15,10 @@ build_cost = 2;
 points = 0;
 highscore = 0;
 
+draw_text_alpha = 1;
+
+is_mouse_charged = true;
+
 if(file_exists("highscore.ini"))
 {
 	ini_open("highscore.ini");
@@ -37,7 +41,7 @@ for (var _i = 0; _i < _inital_spawner_count; _i++)
 
 var _time_source_reset_funtion = function()
 {
-	game_restart();
+	instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]),"Forground_Effects", obj_gameover);
 }
 
 _time_source_reset = time_source_create(time_source_game, 90, time_source_units_frames, _time_source_reset_funtion);

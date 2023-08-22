@@ -12,9 +12,7 @@ if (!instance_exists(obj_soldier) && !pause)
 	if(points > highscore)
 		save();
 	
-	
 	time_source_start(_time_source_reset);
-	
 }
 
 if(room == rm_player)

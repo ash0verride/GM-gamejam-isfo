@@ -836,6 +836,7 @@
     {"id":{"name":"spr_spark_of_electricity_9","path":"sprites/spr_spark_of_electricity_9/spr_spark_of_electricity_9.yy",},},
     {"id":{"name":"spr_magic_sparkle_explosion_without_build_up_17","path":"sprites/spr_magic_sparkle_explosion_without_build_up_17/spr_magic_sparkle_explosion_without_build_up_17.yy",},},
     {"id":{"name":"MP3_Bomb_Explosion_Small_2","path":"sounds/MP3_Bomb_Explosion_Small_2/MP3_Bomb_Explosion_Small_2.yy",},},
+    {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},
     {"id":{"name":"spr_explosion_with_bomb_18","path":"sprites/spr_explosion_with_bomb_18/spr_explosion_with_bomb_18.yy",},},
     {"id":{"name":"spr_explosion_with_bomb_22","path":"sprites/spr_explosion_with_bomb_22/spr_explosion_with_bomb_22.yy",},},
     {"id":{"name":"spr_explosion_with_bomb_4","path":"sprites/spr_explosion_with_bomb_4/spr_explosion_with_bomb_4.yy",},},

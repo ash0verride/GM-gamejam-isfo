@@ -1,3 +1,6 @@
+if (instance_exists(obj_gameover))
+exit;
+
 _cooldown -= (delta_time * 0.000001);
 
 if (_cooldown <= 0)
