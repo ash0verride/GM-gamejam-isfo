@@ -33,7 +33,7 @@
   ],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "sprPlayerShip_Light",
     "path": "sprites/sprPlayerShip_Light/sprPlayerShip_Light.yy",

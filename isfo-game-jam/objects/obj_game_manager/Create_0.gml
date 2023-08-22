@@ -30,3 +30,10 @@ for (var _i = 0; _i < _inital_spawner_count; _i++)
 {
 		instance_create_layer(random_range(0, room_width), random_range(0, room_height), "Spawner_Enemies", obj_enemy_spawner);
 }
+
+var _time_source_reset_funtion = function()
+{
+	game_restart();
+}
+
+_time_source_reset = time_source_create(time_source_game, 90, time_source_units_frames, _time_source_reset_funtion);

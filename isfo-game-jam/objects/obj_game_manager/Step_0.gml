@@ -12,7 +12,9 @@ if (!instance_exists(obj_soldier))
 	if(points > highscore)
 		save();
 	
-	game_restart();
+	
+	time_source_start(_time_source_reset);
+	
 }
 
 if(global.pause)
@@ -21,4 +23,8 @@ if(global.pause)
 		save();
 	
 	game_restart();
+}
+else
+{
+	window_set_cursor(cr_none);	
 }
