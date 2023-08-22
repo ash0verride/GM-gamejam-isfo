@@ -7,7 +7,7 @@ if (difficultyTimer >= _timeBetweenLevels && difficulty < _maxDifficulty)
 	difficultyTimer -=  _timeBetweenLevels;
 }
 
-if (!instance_exists(obj_soldier) && !global.pause)
+if (!instance_exists(obj_soldier) && !pause)
 {
 	if(points > highscore)
 		save();
@@ -19,8 +19,8 @@ if(room == rm_player)
 {
 	if(keyboard_check_pressed(ord("P")))
 	{
-		global.pause = !global.pause;
-		if(!global.pause)
+		pause = !pause;
+		if(!pause)
 		{
 			instance_activate_all();
 			surface_free(paused_surf);

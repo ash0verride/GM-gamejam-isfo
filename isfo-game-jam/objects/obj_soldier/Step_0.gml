@@ -17,6 +17,8 @@ if(shoot_countdown <= 0)
 	//Spawn the bullet
 	var _bullet = instance_create_layer(x, y, "Instances", obj_bullet);
 	
+	audio_play_sound(choose(SFX_PlayerShip_RocketFire2, SFX_PlayerShip_RocketFire2, SFX_PlayerShip_RocketFire1), 0, false)
+	
 	_bullet.speed = 10;
 
 	_bullet.direction = direction;

@@ -2,7 +2,7 @@
 
 if(room = rm_player)
 {
-	if(global.pause)
+	if(pause)
 	{
 		if(!surface_exists(paused_surf))
 		{
