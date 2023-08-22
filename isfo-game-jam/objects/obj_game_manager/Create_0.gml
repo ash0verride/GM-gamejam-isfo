@@ -22,7 +22,7 @@ if(file_exists("highscore.ini"))
 	ini_close();
 }
 
-global.pause = false;
+pause = false;
 paused_surf = -1;
 
 audio_stop_all();

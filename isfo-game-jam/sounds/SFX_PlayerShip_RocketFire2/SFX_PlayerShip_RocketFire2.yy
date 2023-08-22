@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 1.136458,
   "parent": {
-    "name": "Player Ship",
-    "path": "folders/Sounds/SFX/Player Ship.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
