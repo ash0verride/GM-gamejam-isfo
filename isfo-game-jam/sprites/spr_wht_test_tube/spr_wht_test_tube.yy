@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Flat_White",
-    "path": "folders/Sprite/Flat_White.yy",
+    "path": "folders/Sprites/Sprite/Flat_White.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

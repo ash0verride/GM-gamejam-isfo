@@ -3,7 +3,7 @@ if(_has_target && instance_exists(_target))
 {
 	if(_target.object_index == obj_player_centre && instance_exists(obj_soldier) ||
 	_target.object_index == obj_player_centre && instance_exists(obj_settlement) ||
-	_target.object_index == obj_soldier && distance_to_object(_target) < 500)
+	_target.object_index == obj_soldier)
 	{
 			_has_target = false;
 	}

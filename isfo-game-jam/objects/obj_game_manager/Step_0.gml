@@ -9,5 +9,10 @@ if (difficultyTimer >= _timeBetweenLevels && difficulty < _maxDifficulty)
 
 if (!instance_exists(obj_soldier))
 {
-	room_restart();
+	game_restart();
+}
+
+if(global.pause)
+{
+	game_restart();
 }
