@@ -75,7 +75,8 @@ if(_has_target)
 	//Otherwise find a new target
 	if(instance_exists(_target))
 	{
-		move_towards_point(_target.x, _target.y, _speed)
+		image_angle = (point_direction(x, y, _target.x, _target.y)) + 90;
+		move_towards_point(_target.x, _target.y, speed)
 	}
 	else
 	{
