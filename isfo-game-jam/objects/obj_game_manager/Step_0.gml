@@ -7,7 +7,7 @@ if (difficultyTimer >= _timeBetweenLevels && difficulty < _maxDifficulty)
 	difficultyTimer -=  _timeBetweenLevels;
 }
 
-if (!instance_exists(obj_soldier))
+if (!instance_exists(obj_soldier) && !global.pause)
 {
 	if(points > highscore)
 		save();
@@ -17,14 +17,20 @@ if (!instance_exists(obj_soldier))
 	
 }
 
-if(global.pause)
+if(room == rm_player)
 {
-	if(points > highscore)
-		save();
-	
-	game_restart();
-}
-else
-{
-	window_set_cursor(cr_none);	
+	if(keyboard_check_pressed(ord("P")))
+	{
+		global.pause = !global.pause;
+		if(!global.pause)
+		{
+			instance_activate_all();
+			surface_free(paused_surf);
+			paused_surf = -1;
+		}
+	}
+	else
+	{
+		window_set_cursor(cr_none);	
+	}
 }
