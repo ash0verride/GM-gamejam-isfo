@@ -2,11 +2,14 @@ difficultyTimer = 0.0;
 difficulty = 1;
 
 _maxDifficulty = 5;
-_timeBetweenLevels = 20;
+max_enemy_cooldown = 20;
+inital_enemy_cooldown = 5;
+_timeBetweenLevels = 60;
 
-var _inital_spawner_count = 3;
+var _inital_spawner_count = 2;
 
 resources_collected = 0;
+resource_lifespan = 10;
 build_cost = 2;
 
 points = 0;

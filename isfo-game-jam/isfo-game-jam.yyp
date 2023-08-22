@@ -393,7 +393,6 @@
     {"id":{"name":"spr_strk_glowing_space_crystals_02","path":"sprites/spr_strk_glowing_space_crystals_02/spr_strk_glowing_space_crystals_02.yy",},},
     {"id":{"name":"spr_slime_explosion_13","path":"sprites/spr_slime_explosion_13/spr_slime_explosion_13.yy",},},
     {"id":{"name":"spr_lightning_bolt_10","path":"sprites/spr_lightning_bolt_10/spr_lightning_bolt_10.yy",},},
-    {"id":{"name":"sprPickUp_Credits","path":"sprites/sprPickUp_Credits/sprPickUp_Credits.yy",},},
     {"id":{"name":"spr_plasmablade_green","path":"sprites/spr_plasmablade_green/spr_plasmablade_green.yy",},},
     {"id":{"name":"objRoomChangeControl","path":"objects/objRoomChangeControl/objRoomChangeControl.yy",},},
     {"id":{"name":"spr_shooting_fireball_without_impact_14349","path":"sprites/spr_shooting_fireball_without_impact_14349/spr_shooting_fireball_without_impact_14349.yy",},},

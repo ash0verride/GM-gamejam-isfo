@@ -40,8 +40,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Smoke",
-    "path": "folders/Sprites/Animated VFX/Smoke.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

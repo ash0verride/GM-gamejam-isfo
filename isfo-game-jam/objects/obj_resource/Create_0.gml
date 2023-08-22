@@ -1,0 +1,1 @@
+_resourse_lifespan = obj_game_manager.resource_lifespan;

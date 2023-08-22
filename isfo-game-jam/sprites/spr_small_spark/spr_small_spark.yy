@@ -35,8 +35,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Electricity",
-    "path": "folders/Sprites/Animated VFX/Electricity.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
