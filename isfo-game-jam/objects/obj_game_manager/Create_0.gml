@@ -10,6 +10,14 @@ resources_collected = 0;
 build_cost = 2;
 
 points = 0;
+highscore = 0;
+
+if(file_exists("highscore.ini"))
+{
+	ini_open("highscore.ini");
+	highscore = ini_read_real("highscore", "score", highscore);
+	ini_close();
+}
 
 global.pause = false;
 
