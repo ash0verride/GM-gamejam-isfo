@@ -5,6 +5,11 @@ if (difficultyTimer >= _timeBetweenLevels && difficulty < _maxDifficulty)
 {
 	difficulty++;
 	difficultyTimer -=  _timeBetweenLevels;
+	
+	for (var _i = 0; _i < difficulty; _i++)
+	{
+		instance_create_layer(random_range(0, room_width), random_range(0, room_height), "Spawner_Enemies", obj_enemy_spawner);
+	}
 }
 
 if (!instance_exists(obj_soldier) && !pause)

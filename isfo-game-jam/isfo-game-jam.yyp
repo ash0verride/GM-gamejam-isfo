@@ -486,6 +486,7 @@
     {"id":{"name":"MP3_Water_Swoosh_2","path":"sounds/MP3_Water_Swoosh_2/MP3_Water_Swoosh_2.yy",},},
     {"id":{"name":"spr_lightning_swoosh","path":"sprites/spr_lightning_swoosh/spr_lightning_swoosh.yy",},},
     {"id":{"name":"spr_strk_space_shuttle","path":"sprites/spr_strk_space_shuttle/spr_strk_space_shuttle.yy",},},
+    {"id":{"name":"omg_","path":"sprites/omg_/omg_.yy",},},
     {"id":{"name":"spr_small_puff_of_smoke__vertical__18","path":"sprites/spr_small_puff_of_smoke__vertical__18/spr_small_puff_of_smoke__vertical__18.yy",},},
     {"id":{"name":"spr_blk_plasmablade_no_beam","path":"sprites/spr_blk_plasmablade_no_beam/spr_blk_plasmablade_no_beam.yy",},},
     {"id":{"name":"fntText2","path":"fonts/fntText2/fntText2.yy",},},

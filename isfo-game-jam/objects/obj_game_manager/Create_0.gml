@@ -6,7 +6,7 @@ max_enemy_cooldown = 20;
 inital_enemy_cooldown = 5;
 _timeBetweenLevels = 60;
 
-var _inital_spawner_count = 4;
+var _inital_spawner_count = 5;
 
 resources_collected = 0;
 resource_lifespan = 10;
