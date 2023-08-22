@@ -6,7 +6,7 @@ max_enemy_cooldown = 20;
 inital_enemy_cooldown = 5;
 _timeBetweenLevels = 60;
 
-var _inital_spawner_count = 2;
+var _inital_spawner_count = 4;
 
 resources_collected = 0;
 resource_lifespan = 10;
@@ -37,6 +37,11 @@ randomise();
 for (var _i = 0; _i < _inital_spawner_count; _i++)
 {
 		instance_create_layer(random_range(0, room_width), random_range(0, room_height), "Spawner_Enemies", obj_enemy_spawner);
+}
+
+for (var _j = 0; _j < 2000; _j++)
+{
+		instance_create_layer(random_range(0, room_width), random_range(0, room_height), "Stars", obj_stars);
 }
 
 var _time_source_reset_funtion = function()

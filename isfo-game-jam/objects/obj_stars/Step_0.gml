@@ -1,0 +1,1 @@
+move_wrap(true, false, sprite_width);
