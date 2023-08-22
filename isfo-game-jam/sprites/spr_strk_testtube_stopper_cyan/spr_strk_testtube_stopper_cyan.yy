@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "With_Stroke",
-    "path": "folders/Sprite/With_Stroke.yy",
+    "path": "folders/Sprites/Sprite/With_Stroke.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

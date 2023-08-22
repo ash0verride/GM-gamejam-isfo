@@ -11,6 +11,8 @@ build_cost = 2;
 
 points = 0;
 
+global.pause = false;
+
 randomise();
 
 for (var _i = 0; _i < _inital_spawner_count; _i++)
