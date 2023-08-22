@@ -7,7 +7,7 @@ if(instance_exists(obj_player_centre) && move)
 
 //Point towards mouse
 direction = point_direction(x, y, mouse_x, mouse_y);
-image_angle = direction;
+image_angle = direction - 90;
 
 //Shoot if able
 shoot_countdown -= delta_time / 1000000;
@@ -18,8 +18,8 @@ if(shoot_countdown <= 0)
 	var _bullet = instance_create_layer(x, y, "Instances", obj_bullet);
 	
 	_bullet.speed = 10;
-	_bullet.direction = image_angle;
-	_bullet.image_angle = image_angle;
+	_bullet.direction = direction;
+	_bullet.image_angle = direction;
 	
 	//Reset the countdown
 	shoot_countdown += 1;
