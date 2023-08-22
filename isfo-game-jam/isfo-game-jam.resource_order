@@ -26,5 +26,10 @@
     {"name":"spr_button","order":2,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_target","order":1,"path":"sprites/spr_target/spr_target.yy",},
     {"name":"sprSpaceStation_Fixture04","order":23,"path":"sprites/sprSpaceStation_Fixture04/sprSpaceStation_Fixture04.yy",},
+    {"name":"sprPlayerShip_Light_Tilt","order":20,"path":"sprites/sprPlayerShip_Light_Tilt/sprPlayerShip_Light_Tilt.yy",},
+    {"name":"sprPlayerShip_Light","order":18,"path":"sprites/sprPlayerShip_Light/sprPlayerShip_Light.yy",},
+    {"name":"sprPlayerShip_Light_Fire","order":19,"path":"sprites/sprPlayerShip_Light_Fire/sprPlayerShip_Light_Fire.yy",},
+    {"name":"sprSpaceStation_Fixture03","order":22,"path":"sprites/sprSpaceStation_Fixture03/sprSpaceStation_Fixture03.yy",},
+    {"name":"sprPlayerShip_Thruster","order":21,"path":"sprites/sprPlayerShip_Thruster/sprPlayerShip_Thruster.yy",},
   ],
 }

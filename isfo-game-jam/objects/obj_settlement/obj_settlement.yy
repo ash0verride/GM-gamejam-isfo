@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_settlement",
-    "path": "sprites/spr_settlement/spr_settlement.yy",
+    "name": "sprSpaceStation_Fixture03",
+    "path": "sprites/sprSpaceStation_Fixture03/sprSpaceStation_Fixture03.yy",
   },
   "spriteMaskId": null,
   "visible": true,

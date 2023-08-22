@@ -35,8 +35,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_soldier",
-    "path": "sprites/spr_soldier/spr_soldier.yy",
+    "name": "sprPlayerShip_Light",
+    "path": "sprites/sprPlayerShip_Light/sprPlayerShip_Light.yy",
   },
   "spriteMaskId": null,
   "visible": true,
