@@ -27,6 +27,8 @@ if (_health > 0.0)
 		_smoke_trail.owner_target = self;
 		_has_smoke = true;
 	}
+	
+	audio_play_sound(choose(MP3_Bomb_Explosion_Small_1, MP3_Bomb_Explosion_Small_2), 0, false);
 }
 else 
 {
@@ -41,4 +43,5 @@ else
 	}
 	
 	instance_destroy();
+	audio_play_sound(choose(MP3_Bomb_Explosion_Large_1, MP3_Bomb_Explosion_Large_2), 0, false);
 }

@@ -25,6 +25,9 @@ if(file_exists("highscore.ini"))
 global.pause = false;
 paused_surf = -1;
 
+audio_stop_all();
+audio_play_sound(sndTrack2, 0, true, 0.3);
+
 randomise();
 
 for (var _i = 0; _i < _inital_spawner_count; _i++)
