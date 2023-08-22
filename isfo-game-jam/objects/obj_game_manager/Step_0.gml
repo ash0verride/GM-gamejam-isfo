@@ -9,10 +9,16 @@ if (difficultyTimer >= _timeBetweenLevels && difficulty < _maxDifficulty)
 
 if (!instance_exists(obj_soldier))
 {
+	if(points > highscore)
+		save();
+	
 	game_restart();
 }
 
 if(global.pause)
 {
+	if(points > highscore)
+		save();
+	
 	game_restart();
 }

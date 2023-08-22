@@ -117,6 +117,7 @@
   },
   "resources": [
     {"id":{"name":"spr_star_explosion_with_build_up_15","path":"sprites/spr_star_explosion_with_build_up_15/spr_star_explosion_with_build_up_15.yy",},},
+    {"id":{"name":"save","path":"scripts/save/save.yy",},},
     {"id":{"name":"WAV_Smoke_Puff_2","path":"sounds/WAV_Smoke_Puff_2/WAV_Smoke_Puff_2.yy",},},
     {"id":{"name":"spr_water_splash","path":"sprites/spr_water_splash/spr_water_splash.yy",},},
     {"id":{"name":"spr_smoke_swoosh_24","path":"sprites/spr_smoke_swoosh_24/spr_smoke_swoosh_24.yy",},},
